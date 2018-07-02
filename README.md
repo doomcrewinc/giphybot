@@ -18,12 +18,10 @@ bot that can embed images into a discord channel
 Python 3.6.2 or higher
 
 discord.py[voice]
-.. code:: sh
-
-    python3 -m pip install -U discord.py[voice]
-    
+```sh
+python3 -m pip install -U discord.py[voice]
+```
 safygiphy
-.. code:: sh
-
-    python3 -m pip install -U safygiphy
-    
+```sh
+python3 -m pip install -U safygiphy
+```    
