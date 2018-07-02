@@ -12,3 +12,18 @@ bot that can embed images into a discord channel
   
   
   This is an extremely rough proof of concept, and it works.
+
+
+## Dependencies
+Python 3.6.2 or higher
+
+discord.py[voice]
+.. code:: sh
+
+    python3 -m pip install -U discord.py[voice]
+    
+safygiphy
+.. code:: sh
+
+    python3 -m pip install -U safygiphy
+    
