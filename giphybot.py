@@ -44,7 +44,7 @@ async def on_message(message):
         await client.send_file(message.channel, io.BytesIO(response.raw.read()), filename='img.gif', content='Test image.')
 
     if message.content.startswith('?uptime'):
-        await client.send_message(message.channel, "`I've been onine for {0} hours and {1} minutes {2}. `".format(hour, minutes, message.server))
+        await client.send_message(message.channel, "`I've been online for {0} hours and {1} minutes {2}. `".format(hour, minutes, message.server))
 
     if message.content.startswith('?gif'):
         gif_tag = message.content[5:]
